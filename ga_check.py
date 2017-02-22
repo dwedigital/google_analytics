@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 import re
 from urllib2 import urlopen
-
+import sys
 
 def main():
 	#Enter the text file that contains sites to be searched - one site /
     # page per line
-    
+
     file= 'sitechecks.txt'
     with open(file) as f:
         for line in f:
