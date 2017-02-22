@@ -4,8 +4,8 @@ from urllib2 import urlopen
 
 
 def main():
-
-    file= 'sitechecks.txt' #enter the text file that contains sites to be searched - one site / page per line
+	#enter the text file that contains sites to be searched - one site / page per line
+    file= 'sitechecks.txt' 
     with open(file) as f:
         for line in f:
             getSite(line)
