@@ -4,10 +4,8 @@ from urllib2 import urlopen
 import sys
 
 def main():
-	#Enter the text file that contains sites to be searched - one site /
-    # page per line
-
-    file= 'sitechecks.txt'
+	#When running the xcript in command enter the file name in the command line
+    file= str(sys.argv[1])
     with open(file) as f:
         for line in f:
             getSite(line)
