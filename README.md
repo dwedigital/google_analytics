@@ -8,4 +8,4 @@ In order to use ensure you have python 2.7
 * Create a text file containing all the URLs you want to check
   * Each URL needs to be on a new line
 * At the command line run the script and enter the path of the text file
-  * e.g. 'code'
+  * e.g. ` > python ga_check.py example.txt `
