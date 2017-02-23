@@ -13,5 +13,5 @@ In order to use ensure you have python 2.7
 The script will then run in your command line and go through each line in the
 text file checking for Google Analytics and print out:
 
-  Google Analytics is installed
-  No Google Analytics found
+* Google Analytics is installed
+* No Google Analytics found
